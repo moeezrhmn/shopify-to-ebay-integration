@@ -1,0 +1,50 @@
+{
+    "Timestamp": "2024-07-23T08:57:41.518Z",
+    "Ack": "Failure",
+    "Errors": {
+        "ShortMessage": "Errors in Input Data.",
+        "LongMessage": "Errors in Input Data.Please try again.",
+        "ErrorCode": "400",
+        "SeverityCode": "Error",
+        "ErrorClassification": "RequestError"
+    },
+    "Version": "1369",
+    "Build": "E1369_UNI_API5_19110892_R1",
+    "HardExpirationWarning": "2024-07-23 16:12:21",
+    "AddItemResponseContainer": {
+        "CorrelationID": "0",
+        "Errors": [
+            {
+                "ShortMessage": "Seller has opted into business policies. Please use policy IDs rather than legacy fields for Shipping, Payments or Returns.",
+                "LongMessage": "Seller has opted into business policies. Please use policy IDs rather than legacy fields for Shipping, Payments or Returns or new policies may be automatically created seller's behalf.",
+                "ErrorCode": "21919456",
+                "SeverityCode": "Warning",
+                "ErrorClassification": "RequestError"
+            },
+            {
+                "ShortMessage": "Dropped condition from Item specifics.",
+                "LongMessage": "Dropped condition from Item specifics.",
+                "ErrorCode": "21916885",
+                "SeverityCode": "Warning",
+                "ErrorClassification": "RequestError"
+            },
+            {
+                "ShortMessage": "Price is not valid.",
+                "LongMessage": "The price in the listing is either invalid or below the minimum price of GBP 0.99.",
+                "ErrorCode": "73",
+                "SeverityCode": "Error",
+                "ErrorParameters": [
+                    { "@attributes": { "ParamID": "0" }, "Value": "GBP 0.99" },
+                    {
+                        "@attributes": { "ParamID": "1" },
+                        "Value": "405117819069"
+                    },
+                    { "@attributes": { "ParamID": "2" }, "Value": {} }
+                ],
+                "ErrorClassification": "RequestError"
+            }
+        ]
+    }
+}
+
+
